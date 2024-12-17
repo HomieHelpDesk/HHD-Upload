@@ -2,12 +2,11 @@
 import asyncio
 import requests
 import glob
-import json
 import os
 import platform
 from str2bool import str2bool
 import bencodepy
-from rich.pretty import Pretty
+
 from src.trackers.COMMON import COMMON
 from src.console import console
 
