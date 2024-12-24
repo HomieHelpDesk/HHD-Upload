@@ -20,7 +20,7 @@ class HDT():
         self.source_flag = 'hd-torrents.org'
         self.username = config['TRACKERS'][self.tracker].get('username', '').strip()
         self.password = config['TRACKERS'][self.tracker].get('password', '').strip()
-        self.signature = None
+        self.signature = "\n[center][url=https://github.com/HomieHelpDesk/HHD-Upload]Genuine HHD Torrent[/url][/center]"
         self.banned_groups = [""]
 
     async def get_category_id(self, meta):
