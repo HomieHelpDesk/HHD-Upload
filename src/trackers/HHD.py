@@ -20,12 +20,15 @@ class HHD():
         self.upload_url = 'https://homiehelpdesk.net/api/torrents/upload'
         self.search_url = 'https://homiehelpdesk.net/api/torrents/filter'
         self.signature = "\n[center][url=https://github.com/Audionut/Upload-Assistant]Created by Audionut's Upload Assistant[/url][/center]"
-        self.banned_groups = ['aXXo, BONE, BRrip, CM8, CrEwSaDe, CTFOH, dAV1nci, d3g, DNL, FaNGDiNG0, GalaxyTV, HD2DVD, HDTime, iHYTECH, ION10, iPlanet, KiNGDOM, LAMA, MeGusta, mHD, mSD, NaNi, NhaNc3, nHD, nikt0, nSD, OFT, PRODJi, RARBG, Rifftrax, SANTi, SasukeducK, ShAaNiG, Sicario, STUTTERSHIT, TGALAXY, TORRENTGALAXY, TSP, TSPxL, ViSION, VXT, WAF, WKS, x0r, YAWNiX, YIFY, YTS, PSA']
+        self.banned_groups = [
+            'aXXo', 'BONE', 'BRrip', 'CM8', 'CrEwSaDe', 'CTFOH', 'dAV1nci', 'd3g', 'DNL', 'FaNGDiNG0', 'GalaxyTV', 'HD2DVD', 'HDTime', 'iHYTECH', 'ION10',
+            'iPlanet', 'KiNGDOM', 'LAMA', 'MeGusta', 'mHD', 'mSD', 'NaNi', 'NhaNc3', 'nHD', 'nikt0', 'nSD', 'OFT', 'PRODJi', 'RARBG', 'Rifftrax', 'SANTi', 'SasukeducK',
+            'ShAaNiG', 'Sicario', 'STUTTERSHIT', 'TGALAXY', 'TORRENTGALAXY', 'TSP', 'TSPxL', 'ViSION', 'VXT', 'WAF', 'WKS', 'x0r', 'YAWNiX', 'YIFY', 'YTS', 'PSA']
         pass
-    
+
     async def get_cat_id(self, category_name):
         category_id = {
-            'MOVIE': '1', 
+            'MOVIE': '1',
             'TV': '2',
             }.get(category_name, '0')
         return category_id
@@ -53,7 +56,7 @@ class HHD():
             '576i': '7',
             '480p': '8',
             '480i': '9',
-            'Other':'10'
+            'Other': '10'
         }.get(resolution, '10')
         return resolution_id
 
