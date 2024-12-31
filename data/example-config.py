@@ -94,9 +94,9 @@ config = {
 
     "TRACKERS": {
         # Which trackers do you want to upload to?
-        # Available tracker: ACM, AITHER, AL, ANT, BHD, BHDTV, BLU, CBR, FNP, HDB, HDT, HP, HUNO, LCD, LST, LT, MTV, NBL, OE, OTW, PSS, PTER, PTP, PTT, R4E, RF, RTF, SN, STC, STT, THR, TIK, TL, ULCX, UTP, YOINK
+        # Available tracker: ACM, AITHER, AL, ANT, BHD, BHDTV, BLU, CBR, FNP, HDB, HHD, HDT, HP, HUNO, LCD, LST, LT, MTV, NBL, OE, OTW, PSS, PTER, PTP, PTT, R4E, RF, RTF, SN, STC, STT, THR, TIK, TL, ULCX, UTP, YOINK
         # Remove the trackers from the default_trackers list that are not used, to save being asked everytime
-        "default_trackers": "ACM, AITHER, AL, ANT, BHD, BHDTV, BLU, CBR, FNP, HDB, HDT, HP, HUNO, LCD, LST, LT, MTV, NBL, OE, OTW, PSS, PTER, PTP, PTT, R4E, RF, RTF, SN, STC, STT, THR, TIK, TL, ULCX, UTP, YOINK",
+        "default_trackers": "ACM, AITHER, AL, ANT, BHD, BHDTV, BLU, CBR, FNP, HDB, HHD, HDT, HP, HUNO, LCD, LST, LT, MTV, NBL, OE, OTW, PSS, PTER, PTP, PTT, R4E, RF, RTF, SN, STC, STT, THR, TIK, TL, ULCX, UTP, YOINK",
 
         "ACM": {
             "api_key": "ACM api key",
@@ -167,6 +167,11 @@ config = {
             "announce_url": "https://hdbits.org/announce/Custom_Announce_URL",
             # "anon": False,
             "img_rehost": True,
+        },
+        "HHD": {
+            "api_key": "HHD api key",
+            "announce_url": "https://homiehelpdesk.net/announce/customannounceurl",
+            # "anon" : False
         },
         "HDT": {
             "username": "username",
