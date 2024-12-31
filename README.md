@@ -2,7 +2,7 @@
 
 Discord support https://discord.gg/QHHAZu7e2A
 
-# L4G's Upload Assistant
+# HHD-Upload
 
 A simple tool to take the work out of uploading.
 
