@@ -94,9 +94,9 @@ config = {
 
     "TRACKERS": {
         # Which trackers do you want to upload to?
-        # Available tracker: ACM, AITHER, AL, ANT, BHD, BHDTV, BLU, CBR, FNP, HDB, HHD, HDT, HP, HUNO, LCD, LST, LT, MTV, NBL, OE, OTW, PSS, PTER, PTP, PTT, R4E, RF, RTF, SN, STC, STT, THR, TIK, TL, ULCX, UTP, YOINK
+        # Available tracker: ACM, AITHER, AL, ANT, BHD, BHDTV, BLU, CBR, FNP, HDB, HDT, HHD, HP, HUNO, LCD, LST, LT, MTV, NBL, OE, OTW, PSS, PTER, PTP, PTT, R4E, RF, RTF, SN, STC, STT, THR, TIK, TL, ULCX, UTP, YOINK
         # Remove the trackers from the default_trackers list that are not used, to save being asked everytime
-        "default_trackers": "ACM, AITHER, AL, ANT, BHD, BHDTV, BLU, CBR, FNP, HDB, HHD, HDT, HP, HUNO, LCD, LST, LT, MTV, NBL, OE, OTW, PSS, PTER, PTP, PTT, R4E, RF, RTF, SN, STC, STT, THR, TIK, TL, ULCX, UTP, YOINK",
+        "default_trackers": "ACM, AITHER, AL, ANT, BHD, BHDTV, BLU, CBR, FNP, HDB, HDT, HHD, HP, HUNO, LCD, LST, LT, MTV, NBL, OE, OTW, PSS, PTER, PTP, PTT, R4E, RF, RTF, SN, STC, STT, THR, TIK, TL, ULCX, UTP, YOINK",
 
         "ACM": {
             "api_key": "ACM api key",
@@ -168,11 +168,6 @@ config = {
             # "anon": False,
             "img_rehost": True,
         },
-        "HHD": {
-            "api_key": "HHD api key",
-            "announce_url": "https://homiehelpdesk.net/announce/customannounceurl",
-            # "anon" : False
-        },
         "HDT": {
             "username": "username",
             "password": "password",
@@ -180,6 +175,11 @@ config = {
             # "anon" : "False"
             "announce_url": "https://hdts-announce.ru/announce.php",  # DO NOT EDIT THIS LINE
         },
+        "HHD": {
+            "api_key": "HHD api key",
+            "announce_url": "https://homiehelpdesk.net/announce/customannounceurl",
+            # "anon" : False
+        },        
         "HP": {
             "api_key": "HP",
             "announce_url": "https://hidden-palace.net/announce/customannounceurl",
